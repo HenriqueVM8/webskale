@@ -106,7 +106,7 @@ export const dictionary = {
       subtitle: "Alguns dos projetos que ajudámos a crescer.",
       viewProject: "Ver projeto",
       items: [
-        { title: "Nova Studio", category: "Estúdio Criativo", year: "2024" },
+        { title: "Caldicana", category: "Pastelaria", year: "2026" },
         { title: "Atlas Fitness", category: "Ginásio & Bem-estar", year: "2024" },
         { title: "Verde Café", category: "Restauração", year: "2023" },
         { title: "Orbit Tech", category: "Startup SaaS", year: "2024" },
@@ -122,19 +122,19 @@ export const dictionary = {
       plans: [
         {
           name: "Essencial",
-          price: "€490",
+          price: "€280",
           desc: "Para quem precisa de presença online rápida.",
           features: [
             "Landing page de 1 página",
             "Design responsivo",
             "Formulário de contacto",
             "Otimização SEO básica",
-            "Entrega em 7 dias",
+            "Entrega em 15 dias",
           ],
         },
         {
           name: "Profissional",
-          price: "€990",
+          price: "€560",
           desc: "A escolha ideal para negócios em crescimento.",
           features: [
             "Até 5 secções personalizadas",
@@ -142,7 +142,7 @@ export const dictionary = {
             "Animações e interações",
             "SEO avançado + Analytics",
             "Integração com redes sociais",
-            "Suporte de 30 dias",
+            "Suporte de 60 dias",
           ],
         },
         {
@@ -198,6 +198,7 @@ export const dictionary = {
       send: "Enviar mensagem",
       sent: "Mensagem enviada!",
       or: "Ou escreva diretamente para",
+      directly: "Olá @webskale"
     },
     footer: {
       tagline: "Landing pages que fazem o seu negócio escalar.",
@@ -311,7 +312,7 @@ export const dictionary = {
       subtitle: "Some of the projects we helped grow.",
       viewProject: "View project",
       items: [
-        { title: "Nova Studio", category: "Creative Studio", year: "2024" },
+        { title: "Caldicana", category: "Restaurant", year: "2026" },
         { title: "Atlas Fitness", category: "Gym & Wellness", year: "2024" },
         { title: "Verde Café", category: "Hospitality", year: "2023" },
         { title: "Orbit Tech", category: "SaaS Startup", year: "2024" },
@@ -327,7 +328,7 @@ export const dictionary = {
       plans: [
         {
           name: "Essential",
-          price: "€490",
+          price: "€280",
           desc: "For those who need a fast online presence.",
           features: [
             "Single-page landing",
@@ -339,7 +340,7 @@ export const dictionary = {
         },
         {
           name: "Professional",
-          price: "€990",
+          price: "€560",
           desc: "The ideal choice for growing businesses.",
           features: [
             "Up to 5 custom sections",
@@ -402,6 +403,7 @@ export const dictionary = {
       send: "Send message",
       sent: "Message sent!",
       or: "Or write directly to",
+      directly: "Hello @webskale"
     },
     footer: {
       tagline: "Landing pages that make your business scale.",

@@ -28,8 +28,9 @@ export function Work() {
         <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-2">
           {t.work.items.map((item, i) => (
             <Reveal key={item.title} delay={i % 2}>
-              <a href="#contact" className="group block">
-                <div className="relative aspect-[4/3] overflow-hidden border border-border bg-muted">
+              <a href="https://instagram.com" className="group block" target="_blank"> {/*Colocar site do caldicana*/}
+                <div className="relative aspect-4/3 overflow-hidden border border-border bg-muted">
+                  
                   <Image
                     src={images[i] || "/placeholder.svg"}
                     alt={item.title}
@@ -37,6 +38,7 @@ export function Work() {
                     className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
+  
                   <div className="absolute right-3 top-3 flex h-9 w-9 items-center justify-center border border-background/40 bg-background/20 opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100">
                     <ArrowUpRight className="h-4 w-4 text-background mix-blend-difference" />
                   </div>

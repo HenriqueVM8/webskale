@@ -59,10 +59,11 @@ export function Contact() {
                   {t.contact.or}
                 </p>
                 <a
-                  href="mailto:ola@webskale.pt"
+                  href="https://instagram.com/webskale"
+                  target="_blank"
                   className="mt-2 inline-flex items-center gap-2 text-lg font-medium tracking-tight transition-opacity hover:opacity-70"
                 >
-                  ola@webskale.pt
+                  {t.contact.directly}
                   <ArrowUpRight className="h-4 w-4" />
                 </a>
               </div>

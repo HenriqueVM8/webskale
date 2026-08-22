@@ -36,12 +36,12 @@ export function Navbar() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <a href="#top" className="flex items-center gap-2.5" aria-label="WebSkale">
-          <span className="relative flex h-8 w-8 items-center justify-center border border-border">
+          <span className="relative flex h-10 w-10 items-center justify-center border border-border">
             <Image
               src="/logo.png"
               alt="WebSkale"
-              width={20}
-              height={20}
+              width={40}
+              height={40}
               className="dark:invert-0 invert"
             />
           </span>
@@ -63,7 +63,7 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-2">
-          <div className="hidden sm:block">
+          <div> {/*className="hidden sm:block" - Language Toggle desaparece.*/}
             <LanguageToggle />
           </div>
           <ThemeToggle />

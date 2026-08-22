@@ -16,7 +16,7 @@ export function Footer() {
   ]
 
   const social = [
-    { href: "https://instagram.com", label: "Instagram" },
+    { href: "https://instagram.com/webskale", label: "Instagram" },
     { href: "https://linkedin.com", label: "LinkedIn" },
     { href: "mailto:ola@webskale.pt", label: "Email" },
   ]
@@ -69,6 +69,7 @@ export function Footer() {
               {social.map((item) => (
                 <li key={item.label}>
                   <a
+                    target="_blank"
                     href={item.href}
                     className="text-sm text-foreground transition-colors hover:text-muted-foreground"
                   >
@@ -82,7 +83,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-start justify-between gap-2 border-t border-border pt-6 font-mono text-xs uppercase tracking-wider text-muted-foreground sm:flex-row sm:items-center">
           <span>© {year} WebSkale. {t.footer.rights}</span>
-          <span>Lisboa — Portugal</span>
+          <span>Lisboa - Portugal</span>
         </div>
       </div>
     </footer>
